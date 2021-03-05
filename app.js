@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const homeStartingContent = "Welcome everyone to my journal! My blogs will be displayed here. To write something click on compose. Only partial display of posts are allowed here. To read a complete post click on Read more option if available.";
 const aboutContent = "This site is created by Nayan Gupta for personal blogging and daily journal";
 const contactContent = "You can email me at: nayangupta424@gmail.com";
-mongoose.connect("mongodb+srv://Nayan424:nayan101@xmeme.u2zcj.mongodb.net/blogDB",{useNewUrlParser : true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://Nayan424:<Password>@xmeme.u2zcj.mongodb.net/blogDB",{useNewUrlParser : true, useUnifiedTopology: true });
 
 const app = express();
 
